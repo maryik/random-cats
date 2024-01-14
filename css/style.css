@@ -6,6 +6,8 @@ body{
     background-color: rgb(219, 233, 245);
 }
 .container {
+    position: relative;
+    height: 100vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -21,6 +23,7 @@ body{
     border-radius: 20px;
 }
 .btn{
+    margin-left: 35px;
     padding: 10px;
     font-size: larger;
     border-radius: 10px;
@@ -30,5 +33,10 @@ body{
 }
 .btn:active{
     transform: scale(0.95);
+}
+p{
+    position: absolute;
+    left: 1050px;
+    top: 360px;
 }
 
