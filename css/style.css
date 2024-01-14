@@ -23,7 +23,7 @@ body{
     border-radius: 20px;
 }
 .btn{
-    margin-left: 35px;
+    margin-left: 60px;
     padding: 10px;
     font-size: larger;
     border-radius: 10px;
@@ -35,8 +35,7 @@ body{
     transform: scale(0.95);
 }
 p{
-    position: absolute;
-    left: 1050px;
-    top: 360px;
+    text-align: center;
+    margin-top: 15px;
 }
 
